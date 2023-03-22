@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen  and (max-width:1130px){
+    nav{
+        /* flex-direction: column; */
+    }
+    .hero{
+        flex-direction: column ;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+
+    }
+    nav ul{
+        justify-content: center;
+        height: 34px;
+
+
+    }
+    .images{
+
+    }
+    
+
+
+}
