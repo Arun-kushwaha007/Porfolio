@@ -10,7 +10,7 @@
   background: #e1e4ec;
 }
 nav {
-  background-color: rgb(239, 202, 156);
+  /* background-color: rgb(239, 202, 156); */
   display: flex;
   width: 100%;
   height: 80px;
@@ -28,6 +28,7 @@ margin: 10px 20px;
 nav ul li a{
     text-decoration: none;
     color: #000;
+    font-size: 20px;
     font-weight: 500;
     padding: 7px 13px;
 }
@@ -99,11 +100,11 @@ transition: bottom 1s,left 1s;
 .checkbtn{
   /* background-color: beige; */
   font-size: 40px;
-  display: flex;
-  /* position: absolute; */
+  display: none;
+   /* position: absolute; */
   /* justify-content: center; */
   float: right;
-  line-height: 80px;
+  line-height: 40px;
   margin-right: 40px;
   cursor: pointer;
 }
